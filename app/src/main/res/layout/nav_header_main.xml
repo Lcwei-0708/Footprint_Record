@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:theme="@style/AppTheme"
+    android:fitsSystemWindows="true">
+    <androidx.cardview.widget.CardView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="50dp" >
+        <ImageView
+            android:id="@+id/menu_img_avatar"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:tag="null"
+            app:srcCompat="@mipmap/logo_round" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/menu_text_user"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/arialbd"
+        android:text="@string/nav_header_user"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="20dp"
+        android:autoSizeMinTextSize="16dp"/>
+
+
+
+</LinearLayout>

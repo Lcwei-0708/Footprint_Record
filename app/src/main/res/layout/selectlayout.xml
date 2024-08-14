@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/select_text_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Select_address"
+            android:textColor="#484848"
+            android:textStyle="bold"
+            android:fontFamily="@font/comic"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/select_text_datetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Select_datetime"
+            android:textColor="#484848"
+            android:fontFamily="@font/comic"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/select_text_stay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Select_stay"
+            android:textColor="#484848"
+            android:fontFamily="@font/comic"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/select_text_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Select_remark"
+            android:textColor="#484848"
+            android:fontFamily="@font/comic"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Footprint Record</string>
+
+    //登入＆註冊
+    <string name="e_mail">E-mail</string>
+    <string name="mail">信箱</string>
+    <string name="account">E-mail</string>
+    <string name="password">密碼</string>
+    <string name="login">登入</string>
+    <string name="phone">電話</string>
+    <string name="username">姓名</string>
+    <string name="signup">註冊</string>
+    <string name="signuphere">前往註冊</string>
+    <string name="loginhere">返回登入</string>
+    <string name="signuphere1">還沒有帳號嗎？</string>
+    <string name="loginhere1">已經有帳號了嗎？</string>
+    <string name="login_forget">忘記密碼？</string>
+
+    //認證
+    <string name="verification_confirm">完成認證</string>
+    <string name="verification_resend">重新寄送認證信</string>
+    <string name="verification_description">請到信箱中接收認證信，並點選信中連結來完成認證。</string>
+
+    //Menu選單
+    <string name="menu_account">個人資料</string>
+    <string name="menu_add">新增足跡</string>
+    <string name="menu_select">查詢足跡</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_login">登入</string>
+
+    //選擇時間
+    <string name="Time_date1">日期：</string>
+    <string name="Time_time1">時間：</string>
+    <string name="Time_ChooseDate">選擇日期</string>
+    <string name="Time_ChooseTime">選擇時間</string>
+    <string name="Time_StayTime">停留時間：</string>
+    <string name="Time_minute">請輸入分鐘</string>
+    <string name="Time_minute1">分鐘</string>
+    <string name="Time_remark1">備註：</string>
+    <string name="Time_remark">請輸入備註</string>
+
+    //編輯時間
+    <string name="Editlocation_date1">日期：</string>
+    <string name="Editlocation_time1">時間：</string>
+    <string name="Editlocation_ChooseDate">選擇日期</string>
+    <string name="Editlocation_ChooseTime">選擇時間</string>
+    <string name="Editlocation_StayTime">停留時間：</string>
+    <string name="Editlocation_minute">請輸入分鐘</string>
+    <string name="Editlocation_minute1">分鐘</string>
+    <string name="Editlocation_remark1">備註：</string>
+    <string name="Editlocation_remark">請輸入備註</string>
+
+    //個人資料
+    <string name="account_title">標題：</string>
+    <string name="account_data">資料</string>
+
+    //搜尋地址
+    <string name="Search_address">地址</string>
+    <string name="Search_search">搜尋</string>
+    <string name="Search_location">輸入地名/地址</string>
+
+    //查詢足跡
+    <string name="Select_address">地址</string>
+    <string name="Select_datetime">日期</string>
+    <string name="Select_stay">停留時間</string>
+    <string name="Select_remark">備註</string>
+    <string name="Select_select">查詢</string>
+
+    //更改姓名
+    <string name="name_input">請輸入姓名</string>
+    <string name="name_new">新姓名：</string>
+    <string name="name_old">舊姓名：</string>
+
+    //更改電話
+    <string name="phone_input">請輸入電話</string>
+    <string name="phone_new">新電話：</string>
+    <string name="phone_old">舊電話：</string>
+
+    //更改信箱
+    <string name="email_password">密碼：</string>
+    <string name="email_input">請輸入信箱</string>
+    <string name="email_new">新信箱：</string>
+    <string name="email_old">舊信箱：</string>
+
+    //更改密碼
+    <string name="password_new">新密碼：</string>
+    <string name="password_input">請輸入密碼</string>
+    <string name="password_old">舊密碼：</string>
+
+    //其他
+    <string name="todo">TODO</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="nav_header_user">未登入</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="title_activity_add">Map</string>
+    <string name="title_activity_select">Map</string>
+    <string name="title_activity_show">Map</string>
+    <string name="toolbar_next">下一步</string>
+    <string name="toolbar_add">新增</string>
+    <string name="toolbar_edit">編輯</string>
+    <string name="main_sum">累積總人數</string>
+    <string name="main_today">今日總數</string>
+    <string name="cancel">取消</string>
+    <string name="save">儲存</string>
+
+</resources>

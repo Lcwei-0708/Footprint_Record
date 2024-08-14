@@ -1,0 +1,24 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FF3232</item>
+        <item name="colorPrimaryDark">#2B2B2B</item>
+        <item name="colorAccent">#FF3232</item>
+        <item name="drawableTint">#FF3232</item>
+    </style>
+    <style name="AppBarOverlay">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:textColor">#FF3232</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="titleMargin">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="layout_constraintCircleRadius">20dp</item>
+        <item name="android:bottomLeftRadius">20dp</item>
+        <item name="android:bottomRightRadius">20dp</item>
+    </style>
+
+
+</resources>

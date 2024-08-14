@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="55sp"
+    android:orientation="horizontal"
+    android:theme="@style/AppBarOverlay"
+    app:cardElevation="15dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:layout_marginBottom="20dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="center_vertical"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/AppBarOverlay"
+        app:title="@string/app_name"
+        app:contentInsetStartWithNavigation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:titleTextAppearance="@style/AppBarOverlay">
+
+        <TextView
+            android:id="@+id/toolbar_next"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/toolbar_next"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/toolbar_add"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/toolbar_add"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/toolbar_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/toolbar_edit"
+            android:visibility="gone" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+</androidx.cardview.widget.CardView>

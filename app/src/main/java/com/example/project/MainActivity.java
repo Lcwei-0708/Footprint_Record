@@ -422,20 +422,27 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     //設定Marker圖片
     public Bitmap setTextToImg(String text)
     {
-        //取得圖片
+        // 取得圖片資源，將其轉換為 BitmapDrawable 並提取 Bitmap
         BitmapDrawable icon = (BitmapDrawable) getResources().getDrawable(R.drawable.number);
+
+        // 複製 Bitmap，並設置為可編輯 (mutable)，配置為 ARGB_8888 格式
         Bitmap bitmap = icon.getBitmap().copy(Bitmap.Config.ARGB_8888, true);
-        //建立一個畫布
+
+        // 建立一個畫布，並將剛剛創建的 Bitmap 作為畫布的背景
         Canvas canvas = new Canvas(bitmap);
-        //設定要畫上的文字格式
+
+        // 設定繪製文字的 Paint 對象屬性
         Paint paint = new Paint();
-        paint.setAntiAlias(true);
-        paint.setDither(true);
-        paint.setTextAlign(Paint.Align.CENTER);
-        paint.setTextSize(40);
-        paint.setColor(Color.parseColor("#FF3232"));
-        //在原來圖片中畫上文字
-        canvas.drawText(text,(bitmap.getWidth()/2),(bitmap.getHeight()/1.7f), paint);
+        paint.setAntiAlias(true);  // 防鋸齒
+        paint.setDither(true);  // 防抖動
+        paint.setTextAlign(Paint.Align.CENTER);  // 設置文字對齊方式為居中
+        paint.setTextSize(40);  // 設定文字大小
+        paint.setColor(Color.parseColor("#FF3232")); // 設定文字顏色為紅色
+
+        // 在原來的圖片上繪製文字，位置為圖片的中心偏下
+        canvas.drawText(text, (bitmap.getWidth()/2), (bitmap.getHeight()/1.7f), paint);
+
+        // 返回繪製後的 Bitmap
         return bitmap;
     }
 
@@ -521,12 +528,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                         }
                         else
                         {
-                            Log.d("QQQ","HTTP GET請求失敗，回應碼: " + responseCode);
+                            Log.d("HTTP GET ERROR","HTTP GET請求失敗，回應碼: " + responseCode);
                         }
                     }
                     catch(Exception e)
                     {
-                        Log.d("QQQ",e.toString());
+                        Log.d("Error",e.toString());
                     }
                 }
             }).start();

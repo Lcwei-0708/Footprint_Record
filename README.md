@@ -3,19 +3,19 @@
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-right: 10px;">    
     <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" autoplay loop muted playsinline>
-      <source src="/demo/註冊帳號.mp4" type="video/mp4">
+      <source src="[/demo/註冊帳號.mp4](https://github.com/Lcwei-0708/Footprint_Record/blob/main/demo/%E8%A8%BB%E5%86%8A%E5%B8%B3%E8%99%9F.mp4)" type="video/mp4">
     </video>
     <p style="text-align: center;">註冊帳號</p>
   </div>
   <div style="flex: 1; margin-right: 10px;">    
     <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" autoplay loop muted playsinline>
-      <source src="/demo/註冊帳號.mp4" type="video/mp4">
+      <source src="[/demo/註冊帳號.mp4](https://github.com/Lcwei-0708/Footprint_Record/blob/main/demo/%E8%A8%BB%E5%86%8A%E5%B8%B3%E8%99%9F.mp4)" type="video/mp4">
     </video>
     <p style="text-align: center;">註冊帳號</p>
   </div>
   <div style="flex: 1; margin-right: 10px;">    
     <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" autoplay loop muted playsinline>
-      <source src="/demo/註冊帳號.mp4" type="video/mp4">
+      <source src="[/demo/註冊帳號.mp4](https://github.com/Lcwei-0708/Footprint_Record/blob/main/demo/%E8%A8%BB%E5%86%8A%E5%B8%B3%E8%99%9F.mp4)" type="video/mp4">
     </video>
     <p style="text-align: center;">註冊帳號</p>
   </div>
